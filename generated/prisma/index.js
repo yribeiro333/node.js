@@ -136,7 +136,7 @@ const config = {
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": "../../.env",
+    "rootEnvPath": null,
     "schemaEnvPath": "../../.env"
   },
   "relativePath": "../../prisma",
@@ -146,11 +146,12 @@ const config = {
     "db"
   ],
   "activeProvider": "mongodb",
+  "postinstall": false,
   "inlineDatasources": {
     "db": {
       "url": {
         "fromEnvVar": "DATABASE_URL",
-        "value": "mongodb+srv://henrique:CNXeS2wau8BwC7pB@users.veosrtd.mongodb.net/Users?retryWrites=true&w=majority&appName=Users"
+        "value": null
       }
     }
   },

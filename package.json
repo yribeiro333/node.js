@@ -21,6 +21,7 @@
   "homepage": "https://github.com/yribeiro333/node.js#readme",
   "dependencies": {
     "@prisma/client": "^6.7.0",
+    "bcrypt": "^5.1.1",
     "express": "^5.1.0"
   },
   "devDependencies": {

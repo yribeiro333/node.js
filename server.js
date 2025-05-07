@@ -9,6 +9,4 @@ app.use('/', publicRoutes)
 
 
 
-app.listen(3000, () => console.log("Servidor on"))
-
-
+app.listen(3000, () => console.log("Servidor Rodando 🚀"))
