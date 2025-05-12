@@ -6,7 +6,10 @@ const JWT_SECRET = process.env.JWT_SECRET
 
 const auth = (req, res, next) => {
 
-    console.log(req)
+    const token = req.headers.authorization
+
+    if(!token)
+    next()
 
 }
 
